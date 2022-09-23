@@ -1,0 +1,766 @@
+---
+title: "Noções sobre Biomas e os Biomas brasileiros"
+subtitle: "BIO7202 - Fauna `r emo::ji('frog')`, Flora `r emo::ji('tree')` e Ambiente `r emo::ji('landscape')`"
+author: "Marcio Baldissera Cure"
+institute: "[PPG Ecologia](htpps://poseco.ufsc.br), UFSC - [Laboratório IPES](https://ipes.ufsc.br)"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    chakra: libs/remark-latest.min.js
+    css: ["uo", "rutgers", "aula.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    
+---
+class: top, center
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r webcam, echo=FALSE, include= TRUE}
+xaringanExtra::use_webcam()
+```
+
+```{r xaringan_themes, echo = FALSE, include=FALSE}
+	names(xaringan:::list_css())
+```
+
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
+# O que são Biomas?
+
+- Deriva do Grego: _Bio_ (vida) + _Oma_ (conjunto/grupo)
+
+--
+
+- Conjunto formado por fauna e flora de uma região associado a um regime climático e condições geológicas.
+
+--
+
+- Maior unidade biogeográfica 
+
+
+[Referências para BIOMA](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/biome)
+---
+class: top, left
+
+# O que causa variação na distribuição e funcionamento dos organismos?
+
+--
+
+- As condições ambientais!  `r emo::ji("clap")` `r emo::ji("clap")`
+
+--
+
+...mas tb 
+--
+os processos históricos e evolutivos.
+
+
+---
+class: top, left
+
+# Biomas
+
+- Se refere a uma convergência global de formações vegetais similares em estrutura e funcionamento;
+
+- Composição florística é ignorada.
+
+---
+class: top, left
+# América do Sul, Oceania ou África?
+### Ex: Savannas
+.center[<img width = "40%" src="img/cerrado ss 1.jpg"><img width="50%"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScdmbKOuqY1HD_rJHA1ryohZEsDnYGiEWy9Y-QQaIAfgegc_4QAAfAvsMRJ7dNB1WFwdQ&usqp=CAU">
+]
+---
+class: top, left
+## O Clima e os Biomas
+
+.center[
+<img width="90%" src="https://useruploads.socratic.org/R7GOjG74S8K464n5xJVC_biomestp.gif">
+]
+---
+class: top, left
+
+# Clima varia com a **latitude**
+
+<img width="35%" src="https://cdn.kastatic.org/ka-perseus-images/3e5e921f740dd3a6fe6e5454e34dbec0920fe924.png">
+<img width="63%" src="https://universesandbox.com/forum/index.php?action=dlattach;topic=14828.0;attach=28622;image">
+---
+class: top, left
+
+# Clima varia com a **altitude**
+
+.center[<img width="70%" src="http://1.bp.blogspot.com/-JJEV3SgEyps/VQWnVovi__I/AAAAAAAAPGA/y6AGf2_y6zo/s1600/image018.gif">]
+---
+
+# Figurinha legal
+
+.center[
+<img width="70%" src="https://useruploads.socratic.org/AcRjaNHGQDGIQaAxhvK6_0394.jpg">
+]
+
+[Origem da figura (com explicações)](https://socratic.org/questions/how-are-biomes-distributed-1)
+---
+class: top, left
+
+# Chuva e seca orográfica
+
+- Ar úmido e quente vem do oceano, esfria enquanto sobe e deixa toda umidade na encosta voltada para o litoral.
+
+.right-column[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rain_Shadow_Effect_caused_by_Orographic_Lift.png/800px-Rain_Shadow_Effect_caused_by_Orographic_Lift.png?20150304011719">]
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Satellite_image_of_Bolivia_in_June_2002.jpg/230px-Satellite_image_of_Bolivia_in_June_2002.jpg">
+_[Referência](https://en.wikipedia.org/wiki/Rain_shadow)_
+
+---
+class: top, left
+
+# Clima varia com a **posição geográfica**
+
+
+.center[<img width="60%"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Australia_satellite_plane.jpg/285px-Australia_satellite_plane.jpg">
+]
+--
+
+Com a **longitude**
+
+---
+class: top, left
+
+## Baseado no clima, temos esta distribuição dos biomas
+- Nomeado conforme o tipo vegetal dominante.
+
+.left-column[- Tundra
+- Taiga
+- Floresta Temperada
+- Floresta Tropical
+- Savana
+- Campos
+]
+
+.right-column[<img width="80%" src="https://static.preparaenem.com/conteudo/images/biomas.jpg">]
+---
+### ...e as heterogeneidades locais devem ser consideradas
+
+- Fertilidade do solo;
+- Disponibilidade de água;
+- Topografia;
+- Perturbações. Ex.: fogo e herbivoria.
+
+Link para entender um pouco como [Distúrbios mantém estados alternativos](https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.12537)
+---
+# Por exemplo
+
+<img width="50%" src="https://www.frontiersin.org/files/Articles/391790/fevo-06-00104-HTML-r1/image_m/fevo-06-00104-g001.jpg"><img width="50%" src="https://www.biodiversity-exploratories.de/wp-content/uploads/sch_2013_landscape_pic_mail.jpg">
+
+[Dexter et al., 2018](https://www.frontiersin.org/articles/10.3389/fevo.2018.00104/full)
+---
+# numa escala mais fina
+### Mata seca, mata de galeria e savanna
+
+<img width="70%" src="img/Figure_2.png">
+---
+# Grande variedade de ambientes
+
+.center[<img width="80%" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo/biomas.jpg">
+]
+[Imagem](https://mundoeducacao.uol.com.br/geografia/biomas.htm)
+
+---
+class: top, left
+
+# Distribuição dos Biomas da Terra
+
+<img width="100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vegetation-no-legend.PNG/1000px-Vegetation-no-legend.PNG">
+---
+# Anthrome
+
+- Entender influência humana nos ecosystems
+- Integrar sistemas humanos com biosfera no antropoceno. 
+- 18 [anthromes](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/070062) (75% Terra)
+
+.center[<img width="45%" src="https://esajournals.onlinelibrary.wiley.com/cms/asset/43cce0a4-adb1-44fc-870a-dafae19ed74c/i1540-9295-6-8-439-f01.jpg">]
+
+---
+class: top, left
+
+# Principais Biomas
+--
+
+### Tundra (ártica e alpina)
+
+.left-column[
+
+- Alaska, Canadá, Europa e Rússia
+- Poucos meses de verão, pouca luz, muito frio, muito vento;
+- Não há árvores!
+]
+
+.right-column[<img width="70%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/800px-Map-Tundra.png/220px-800px-Map-Tundra.png"><img width="75%" src="https://static6.depositphotos.com/1012051/613/i/450/depositphotos_6134859-stock-photo-alpine-tundra-in-winter.jpg">
+]
+---
+### Tundra (ártica e alpina)
+
+- [Permafrost](https://cenperm.ku.dk/facts-about-permafrost/): solo congelado.
+- Estoca matéria orgânica, CO2 e metano
+- Ocorre a pelo menos -2 ºC.
+
+<img width="30%" src="https://i0.wp.com/www.info24service.com/wp-content/uploads/2018/06/Permafrost-1.jpg?w=225&ssl=1">
+<img width="40%"src="https://cenperm.ku.dk/billeder/1100x600/permafrost-1100x600.jpg">
+
+---
+# Fauna e Flora da Tundra
+
+- Líquens, musgos e algumas gramíneas;
+- Alces, ursos polares, caribus, lobos do ártico, boi almirascado, lebre, coruja da neve.
+
+<img width="35%" src="https://s1.static.brasilescola.uol.com.br/be/2021/06/fauna-tundra.jpg" cpt="asdas"> <img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/280px-Polar_Bear_-_Alaska_%28cropped%29.jpg"><img width="33%" src="https://www.bioenciclopedia.com/wp-content/uploads/2012/04/caribu3-800.jpg">
+---
+# Boi almiscarado
+
+<img width="70%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ovibos_moschatus_qtl3.jpg/280px-Ovibos_moschatus_qtl3.jpg"><img width="30%" src="https://imgs.ponto.com.br/11006529/1xg.jpg?imwidth=500">
+
+
+---
+# Tundra
+
+.center[<img width="32%" src="https://www.infoescola.com/wp-content/uploads/2007/08/tundra-alpina.jpg"> <img width="32%" src="https://www.infoescola.com/wp-content/uploads/2016/01/tundra-alasca-392296921-1000x667.jpg"><img width="32%" src="https://s3.static.brasilescola.uol.com.br/be/2021/06/vegetacao-tundra.jpg"><img width="70%" src="https://climainfo.org.br/wp-content/uploads/2020/07/permafrost-degelo.jpg">]
+
+---
+class: top, left
+# Principais Biomas
+
+### Taiga (Floresta boreal ou de coníferas)
+
+- Beeem frio, mas menos do que na Tundra;
+- Alasca, Sibéria, Canadá e norte da Europa. Entre Tundra e Floresta Temperada.
+
+.center[<img width="60%" src="https://s3.static.brasilescola.uol.com.br/be/2021/06/taiga-mapa.png">]
+---
+# Taiga
+
+- Presença de árvores aciculifoliadas.
+- Temp máx chega a 20ºC, mín:-10 a -30ºC
+- Sibéria pode chegar a -50ºC
+
+.center[<img width="50%" src="https://i0.wp.com/trabalhosparaescola.com.br/wp-content/uploads/2017/10/https-www-punmiris-com-himg-o-18240-jpg.jpeg?w=500&ssl=1"><img width="44%" src="https://www.queridasplantas.com/wp-content/uploads/2022/04/Pinheiro-silvestre-Pinus-sylvestris.jpg">]
+---
+## Outras características da Taiga
+
+- Principal forma de precipitação é a [neve](https://brasilescola.uol.com.br/geografia/neve.htm) (3 a 6 meses); Chuva pouco volumosa ocorre no verão
+- Solos rasos, pobres em nutrientes e ácidos
+
+.left-column[
+- Duas estações bem definidas]
+
+.right-column[<img width="50%" src="https://s2.static.brasilescola.uol.com.br/be/2020/08/neve.jpg"><img width="50%" src="https://s5.static.brasilescola.uol.com.br/be/2021/06/1-taiga.jpg">]
+
+---
+## Vegetação da Taiga `r emo::ji("pine")`
+
+- Baixa riqueza
+- Vegetação formato de cone ([coníferas](http://capconiferas.blogspot.com/2011/03/))
+- Árvores altas, alto DBH
+
+<img width="39%" src="http://www.russobras.com.br/images/arvore_3.jpg"> <img width="40%" src="http://www.russobras.com.br/images/arvore_9.jpg">
+---
+class: top, left
+
+## Vegetação arbustiva e herbácea  `r emo::ji("berry")`
+
+- Diversos frutos selvagens, berries, morango selvagem, boldo, mirtilo e várias gramas
+
+.center[<img width="36%" src="https://cdn.xxl.thumbs.canstockphoto.com.br/iluminado-baga-waterbed-grows-toco-floresta-yakutia-sunlight-arbusto-sempre-viva-banco-de-fotos_csp75015126.jpg"><img width="28%" src="https://cdn.xxl.thumbs.canstockphoto.com.br/arandos-vermelhos-unassembled-bagas-reuni%C3%A3o-oposta-suculento-selvagem-berries-balde-fotos_csp75014886.jpg"><img width="28%" src="https://cdn.xxl.thumbs.canstockphoto.com.br/balde-mirtilos-capim-verde-yakutia-coletado-norte-selvagem-bagas-pequeno-arandos-fotografia-de-stock_csp75013592.jpg">]
+---
+## Mais vegetação...
+
+.center[<img width="50%" src="https://i0.wp.com/trabalhosparaescola.com.br/wp-content/uploads/2017/10/https-thumbs-dreamstime-com-x-taiga-de-baikal-da-1.jpeg?w=400&ssl=1"><img width="51%" src="https://i0.wp.com/trabalhosparaescola.com.br/wp-content/uploads/2017/10/taiga-ou-floresta-boreal-na-siberia-russia-fot.jpeg?w=450&ssl=1">]
+---
+## Fauna da Taiga
+
+<img width="25%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Moose_superior.jpg/280px-Moose_superior.jpg">
+<img width="22%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lynx_lynx_poing.jpg/280px-Lynx_lynx_poing.jpg">
+<img width="22%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Scrub_Hare_%28Lepus_saxatilis%29_close-up_%2830544290256%29_%282%29.jpg/280px-Scrub_Hare_%28Lepus_saxatilis%29_close-up_%2830544290256%29_%282%29.jpg">
+<img width="25%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/280px-American_Beaver.jpg">
+[Alce](https://pt.wikipedia.org/wiki/Alce); [Lince](https://pt.wikipedia.org/wiki/Lince);[Lebre](https://pt.wikipedia.org/wiki/Lebre);[Castor](https://pt.wikipedia.org/wiki/Castor);[Lobo](https://pt.wikipedia.org/wiki/Lobo); [Veado](https://pt.wikipedia.org/wiki/Cerv%C3%ADdeos); raposas;[guaxinins](https://pt.wikipedia.org/wiki/Guaxinim); [ursos](https://pt.wikipedia.org/wiki/Ursidae).
+---
+## Lobos e ursos  `r emo::ji("wolf")`  `r emo::ji("bear")`
+
+.center[
+<img src="https://s1.static.brasilescola.uol.com.br/be/2021/06/lobo-taiga.jpg">]
+
+[Fonte da imagem](https://brasilescola.uol.com.br/geografia/taiga.htm)
+---
+## Desmatamento é o principal impacto ambiental na Taiga
+
+.center[<img width="90%" src="https://static.preparaenem.com/2022/02/maquina-madeira-desmatamento.jpg">]
+---
+class: top, left
+# Principais Biomas
+
+### Floresta temperada
+
+- América do Norte, Europa, Ásia e América do Sul
+- Vegetação decídua
+- Altos índices pluviométricos (Até 100cm/ano)
+
+.center[<img width="60%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Temperate_rainforest_map.svg/1920px-Temperate_rainforest_map.svg.png"><img width="40%" src="https://static.preparaenem.com/conteudo_legenda/02b61a92c8e91886b5b6831ae1516e45.jpg">]
+
+---
+# Floresta temperada
+
+- Vegetação mais rica do que na Taiga
+- Vários extratos da vegetação
+- [Quatro estações](https://www.youtube.com/watch?v=zzE-kVadtNw) bem definidas
+- Solo fértil e rico em matéria orgânica
+
+.center[<img width="52%" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/12/estacoes-ano.jpg"><img width="40%" src="">]
+
+---
+# Floresta temperada
+## Fauna
+.center[<img width="49%" src="https://static.todamateria.com.br/upload/fa/un/faunaflorestatropical.jpg?auto_optimize=low"><img width="52%" src="https://static.preparaenem.com/conteudo/images/fauna-da-floresta-temperada.jpg">]
+
+---
+# Floresta temperada
+## Vegetação
+
+- Árvores decíduas, coníferas e de folhas largas
+
+- ulmeiro, faia, nogueira, plátano, ácer, choupo, álamo, bétula, freixo, salgueiro, cerejeira, castanheiro, tília, amieiro, carvalho, pinheiro e cedro. 
+---
+# Exemplos
+
+<img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/PlantanusAcerifoliaLeaf2.jpg/280px-PlantanusAcerifoliaLeaf2.jpg">
+<img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Betula_pendula_001.jpg/220px-Betula_pendula_001.jpg"> <img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Willow.jpg/280px-Willow.jpg">
+
+Plátano, Bétula, Salgueiro
+---
+# Floresta temperada `r emo::ji("question")`
+## Floresta Ombrófila Mista (Mata de Araucária)
+
+<img width="45%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Araucaria_Parna_aparados_da_serra.jpg/280px-Araucaria_Parna_aparados_da_serra.jpg"><img width="55%" src="https://biomasbrasileiros.files.wordpress.com/2018/06/floresta-araucarias.jpg">
+
+--
+
+É considerada parte da floresta tropical Atlântica 
+---
+class: top, left
+# Principais Biomas
+
+### Floresta tropical
+
+-Localizada entre os trópicos de Cancer e Capricórnio;
+
+-Também chamada de Floresta Pluvial ou Úmida
+
+-Alta diversidade
+
+-Solos pobres. Ciclagem rápida de nutrientes.
+.center[<img width="60%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Rain_forest_location_map.png/220px-Rain_forest_location_map.png"><img width="30%" src="https://static.todamateria.com.br/upload/fl/or/florestatropicalinterior.jpg">
+]
+---
+# Floresta tropical
+### Clima quente e úmido
+
+- MAT em torno de 20ºC
+- Muito úmido. MAP acima de 800mm
+- Estação seca curta ou inexistente.
+- Maior resiliência em altas precipitações
+
+<img width="50%" src="img/hirota_1.png"><img width="50%" src="https://revistapesquisa.fapesp.br/wp-content/uploads/2019/11/018-029_capa-amazonia-1_285-5-1140px.jpg"> 
+---
+# Vegetação
+
+- Árvores altas, lianas, epífetas
+- Vários extratos de vegetação
+- Dossel fechado
+
+<img width="49%" src="https://static.todamateria.com.br/upload/fl/or/florestatropicalestratificacao-0.jpg?auto_optimize=low"><img width="51%" src="https://i0.wp.com/contilnetnoticias.com.br/wp-content/uploads/2022/09/samauma-scaled.jpg?resize=696%2C463&ssl=1">
+---
+# Vegetação
+## Ciência nas alturas
+
+<img width="87%" src="https://revistapesquisa.fapesp.br/wp-content/uploads/2020/09/SITE_ArvoresGigantes-0-1140.jpg">
+
+angelim vermelho (Dinizia excelsa)
+---
+## Vitória Régia
+
+.center[<img src="https://beduka.com/blog/wp-content/uploads/2020/06/Flora_da_Floresta_Amaz%C3%B4nica.jpg"><img src="">]
+---
+# Fauna
+- Todo o tipo desde insetos até mamíferos de médio porte
+- "A floresta tem mais olhos do que folhas". Davi Kopenawa
+
+<img width="57%" src="https://beduka.com/blog/wp-content/uploads/2020/06/Fauna_da_Floresta_Amaz%C3%B4nica.jpg"><img width="43%" src="https://www.greenmebrasil.com/wp-content/uploads/2016/05/besouro-titan.jpg">
+---
+# Efeito das florestas tropicais sobre as chuvas globais
+[Marengo et al., 2018](https://www.researchgate.net/profile/Jose-Marengo-2/publication/329834074_Changes_in_Climate_and_Land_Use_Over_the_Amazon_Region_Current_and_Future_Variability_and_Trends/links/5c1ce037a6fdccfc705ee1f0/Changes-in-Climate-and-Land-Use-Over-the-Amazon-Region-Current-and-Future-Variability-and-Trends.pdf)
+<img width="85%" src="https://revistapesquisa.fapesp.br/wp-content/uploads/2019/11/018-029_capa-amazonia-1_285-1-tablet.png">
+---
+class: top, left
+# Principais Biomas
+
+### Deserto
+
+- Pouquíssima precipitação
+- Grande amplitude térmica
+- Solo arenoso e pobre em nutrientes
+- Formação de dunas, erosão eólica
+- Planícies cobertas de sal
+
+.center[<img width="40%" src="https://revistaea.org/img/vcsabiabiomas48_files/image005.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Aavikko.png/449px-Aavikko.png">]
+---
+# A vida é discreta, mas existe
+- Saara: 70 sp mamíferos, 90 sp aves (sem contar migratórias),  ~ 100 répteis
+- Roedores (ratos-canguru)
+- Repteis (serpentes e lagartos)
+- Insetos (escorpião)
+
+<img width="30%" src="https://i0.wp.com/www.curioso.blog.br/wp-content/uploads/2014/06/58d92d339c1a095cfd29b95607e8f9de1.jpg?w=540&ssl=1"><img width="30%" src="https://i2.wp.com/www.curioso.blog.br/wp-content/uploads/2014/06/cerastes-cerastes1.jpg?w=531&ssl=1"><img width="21.3%" src="https://i0.wp.com/www.curioso.blog.br/wp-content/uploads/2014/06/escorpiao-do-deserto.jpg">
+---
+# Vegetação
+
+<img width="50%" src="https://www.estudokids.com.br/wp-content/uploads/2014/10/deserto-plantas-e1587124626757.jpg"><img width="50%" src="http://s2.glbimg.com/UkMwijyNhzwWUI9P3U1j9NRV3y8=/e.glbimg.com/og/ed/f/original/2017/07/19/1-ubar-542-web56.jpg"><img width="50%" src="https://i1.wp.com/ckturistando.com.br/wp-content/uploads/2019/08/como-visitar-huacachina-oasis-no-deserto-dunas-de-ica-peru-02.jpg?resize=1140%2C608&ssl=1"><img width="50%" src="https://www.infoescola.com/wp-content/uploads/2010/03/cacto-211034656-1000x667.jpg">
+---
+# Exemplos
+
+<img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Atacama1.jpg/250px-Atacama1.jpg"><img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Sahara_satellite_hires.jpg/250px-Sahara_satellite_hires.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Monumentvalley.jpg/800px-Monumentvalley.jpg">
+
+---
+class: top, left
+# Principais Biomas
+
+### Estepe (campos)
+- Américas N e S, Leste Europa 
+- Gramíneas e poucas árvores
+- Geralmente têm clima frio e seco
+- Altitudes acima de 1000 m
+
+<img width="45%" src="https://maestrovirtuale.com/wp-content/uploads/2019/10/seco-patagonia.jpg"><img width="50%" src="https://s4.static.brasilescola.uol.com.br/be/2022/05/estepes.jpg">
+.center[<img width="50%" src="">]
+---
+# Estepes
+
+- Regiões de transição entre desertos e florestas
+
+- Diferença para as savannas:
+--
+**temperatura!**
+
+---
+# Vegetação
+
+<img width="30%" src="https://static.preparaenem.com/2022/05/paisagem-vegetacao-estepes.jpg"> <img width="30%" src="https://static4.depositphotos.com/1000483/334/i/450/depositphotos_3347401-stock-photo-steppe-feather.jpg"> <img width="30%" src="https://st2.depositphotos.com/6581770/9409/i/450/depositphotos_94091376-stock-photo-blooming-water-lilies-on-the.jpg"> <img width="30%" src="https://st.depositphotos.com/1624647/3827/i/450/depositphotos_38273695-stock-photo-haloxylon.jpg"> <img width="30%" src="https://st3.depositphotos.com/6522480/19180/i/450/depositphotos_191800174-stock-photo-nature-summer-don-lake-steppe.jpg"> <img width="30%" src=""> <img width="30%" src="https://st.depositphotos.com/2590935/2946/i/450/depositphotos_29461913-stock-photo-steppe-in-donbass.jpg"> <img width="25%" src="https://farmer-online.com/wp-content/uploads/2021/04/Plants-of-the-steppe-zone-photos-and-names.jpg"> <img width="19%" src="https://farmer-online.com/wp-content/uploads/2021/04/1618144733_776_Plants-of-the-steppe-zone-photos-and-names.jpg"> <img width="20%" src="https://farmer-online.com/wp-content/uploads/2021/04/1618144733_535_Plants-of-the-steppe-zone-photos-and-names.jpg"> <img width="20%" src="https://farmer-online.com/wp-content/uploads/2021/04/1618144733_423_Plants-of-the-steppe-zone-photos-and-names.jpg">
+---
+# Fauna
+
+- Veados, lebres, tatu, lhama, raposas, lobos, roedores diversos e [muitas aves](https://www.wikiaves.com.br/).
+
+<img width="33%" src="https://s3.static.brasilescola.uol.com.br/be/2022/05/ratazana-estepes.jpg"><img width="30.3%" src="https://i0.wp.com/barilocheparabrasileiros.com.br/wp-content/uploads/2014/03/07bfd-jl05-039-guanacos-small-size.jpeg?resize=640%2C465&ssl=1"><img width="33%" src="https://c.pxhere.com/photos/dd/35/animals_blurred_background_countryside_daylight_deers_field_grass_grassland-1537795.jpg!d"><img width="33%" src="https://static.preparaenem.com/2020/08/lobo-guara.jpg"><img width="34%" src="https://s1.static.brasilescola.uol.com.br/be/e/image/tatu.jpg"><img width="30%" src="https://t2.ea.ltmcdn.com/pt/posts/7/5/3/aves_do_pampa_23357_1_600.webp">
+---
+# Savannas
+
+- Ocorrem na região tropical
+- Caracterizada por estação seca bem definida
+- MAP intermediário (maior resiliência)
+
+<img width="29%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Acacia_Bild1086.jpg/200px-Acacia_Bild1086.jpg">
+<img width="29%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Zebras%2C_Serengeti_savana_plains%2C_Tanzania.jpg/200px-Zebras%2C_Serengeti_savana_plains%2C_Tanzania.jpg"><img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/K%C3%B6ppen_World_Map_Aw.svg/400px-K%C3%B6ppen_World_Map_Aw.svg.png">
+
+---
+# Vegetação 
+
+- Grande diversidade de plantas
+- Campos, savannas e florestas
+- Vegetação tem estratégias para lidar com a seca
+
+<img width="50%" src="https://www.blogs.unicamp.br/cienciaemrevista/wp-content/uploads/sites/13/2015/04/dsc00638-768x576.jpg"><img width="50%" src="https://www.blogs.unicamp.br/cienciaemrevista/wp-content/uploads/sites/13/2015/04/dsc06012-300x225.jpg">
+---
+# Vegetação
+.center[
+<img width="43%" src="https://ichef.bbci.co.uk/news/800/cpsprodpb/D01C/production/_101967235_gettyimages-898442490.jpg.webp"><img width="40%" src="https://www.efloraweb.com.br/wp-content/uploads/2017/06/13.jpg">
+<img width="42%" src="https://img.freepik.com/fotos-premium/arvore-de-acacia-nas-planicies-de-savana-aberta-da-africa-oriental_344022-873.jpg?w=740"><img width="38%" src="https://www.efloraweb.com.br/wp-content/uploads/2017/06/29.jpg">]
+---
+# Fauna
+
+- Grandes mamíferos restritos à savannas africanas
+- Fauna controla vegetação assim como o fogo
+
+<img width="50%" src="https://www.roteiroviagemdemochileiros.com.br/wp-content/uploads/2015/06/Costa-do-Marfim1-e1437434291649.jpg"><img width="50%" src="https://meioambiente.culturamix.com/blog/wp-content/uploads/2010/12/Cerrado-Fauna.jpg">
+---
+# Biomas brasileiros
+
+.left-column[
+- Amazônia;
+- Caatinga;
+- Cerrado;
+- Pantanal;
+- Mata Atlântica;
+- Pampa
+
+66% de veg nativa ([Mapbiomas](https://mapbiomas.org/)) 
+
+Limites entre os Biomas ([IBGE](https://www.ibge.gov.br/apps/biomas/#/home)).
+]
+
+.right-column[<img width="68%" src="img/Mapa_Biomas_250_S_Costeiro.png">
+]
+---
+# Amazônia
+
+<img src="https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/MBI-Infografico-7.0-BR-amazonia-rev2.jpg">
+---
+# Amazônia
+
+- Maior biodiversidade do planeta
+- Alta temperatura
+- Alta pluviosidade
+- Maior floresta plantada do mundo
+
+.center[<img width="60%" src="https://classic.exame.com/wp-content/uploads/2022/08/GettyImages-1242000049.jpg?quality=70&strip=info&w=1024">]
+---
+# Floresta domesticada
+
+- [Terra preta](https://revistapesquisa.fapesp.br/uma-origem-natural-das-terras-pretas-de-indio/)
+- [Floresta domesticada](https://www.frontiersin.org/articles/10.3389/fevo.2017.00171/full)
+- [Composição e domesticação](https://www.science.org/doi/10.1126/science.aal0157)
+
+.center[<img width="50%" src="https://i1.wp.com/blog.cicloorganico.com.br/wp-content/uploads/2020/10/terra-preta-de-c38dndio.jpg?resize=700%2C466">
+]
+---
+# Vegetação
+
+Açaí, pupunha, samaúma
+
+<img width="30%" src="https://www.infoescola.com/wp-content/uploads/2020/01/acai-arvore-1609815112-400x600.jpg"><img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pupunha_%28Bactris_gasipaes%29_11.jpg/250px-Pupunha_%28Bactris_gasipaes%29_11.jpg"><img width="30%" src="https://portalamazonia.com/images/p/34367/b2ap3_large_WhatsApp-Image-2021-10-30-at-14.50.48.jpeg">
+---
+# Fauna
+
+
+<img width="90%" src="https://lh3.googleusercontent.com/PupKdvBA1LhNUNZOVyoRAnFABXxsA3YStbGuyLjSHyQUQaOTomJfrSI_eNumIvt9K_KOgXtv1MivGkr2SvB2Rwdwlk3jwTGJU75FxaQdBK6HC8KViSonHpzUYbuD_5dMmniix6M">
+
+---
+# Amazônia
+### Texto: [A floresta da chuva](https://revistapesquisa.fapesp.br/a-floresta-da-chuva/)
+### Vídeo do YouTube: [Como a Amazônia regula o Clima](https://youtu.be/n6lgUKycLso)
+
+.center[<img width="82%" src="https://revistapesquisa.fapesp.br/wp-content/uploads/2019/11/018-029_capa-amazonia-1_285-4-1140px.jpg">]
+---
+# Sérias ameaças
+
+- Mudanças climáticas
+- Mineração,Hidrelétricas
+- Agronegócio, monoculturas
+- Incêncio proposital
+
+<img src="https://beduka.com/blog/wp-content/uploads/2020/06/Desmatamento_da_Floresta_Amaz%C3%B4nica.jpg">
+---
+# Cerrado
+
+<img width="100%" src="https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/MBI-Infografico-7.0-BR-cerrado-rev2.jpg">
+---
+# Cerrado
+
+- 2º maior Bioma do País
+- Savana com > biodiversidade do mundo
+- Formações vegetais negligenciadas
+- Berço das águas
+
+<img width="50%" src="https://ispn.org.br/site/wp-content/uploads/2020/05/@combuca-87.jpg"><img width="50%" src="https://www.daninoce.com.br/wp-content/uploads/2017/12/10-trilhas-imperdiveis-na-chapada-dos-veadeiros-dani-noce-imagem-destaque-1-960x625.jpg">
+
+---
+# Vegetação do Cerrado
+
+<img width="100%" src="https://www.webambiente.gov.br/webambiente/wiki/lib/exe/fetch.php?w=900&h=400&tok=d0a9b9&media=webambiente:fito-cerrado.jpg">
+
+.center[<img width="90%" src="https://www.icmbio.gov.br/projetojalapao/images/stories/thumbnails/images/stories/DSC00825-695x153.JPG">]
+
+---
+
+# Vegetação do Cerrado
+
+<img width="33%" src="img/cerrado1.jpg"><img width="29%" src="img/cerrado2.jpg"><img width="29%" src="img/cerrado3.jpeg"><img width="30%" src="https://www.icmbio.gov.br/projetojalapao/images/stories/thumbnails/images/stories/IMG_1114-3-695x521.jpg"><img width="30%" src="https://www.icmbio.gov.br/projetojalapao/images/stories/thumbnails/images/stories/IMG_1089-3-695x521.jpg"><img width="30%" src="https://www.icmbio.gov.br/projetojalapao/images/stories/thumbnails/images/stories/IMG_1060-1-695x521.jpg">
+
+Embrapa sobre o [Cerrado](https://www.embrapa.br/cerrados/colecao-entomologica/bioma-cerrado).
+---
+# Vegetação
+
+<img width="30%" src="https://3.bp.blogspot.com/-lymJIE81AeQ/VWHMXiFw9XI/AAAAAAAAIxU/yA-o6rV3pgs/s400/7.jpg"><img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Paepalanthus%2C_Eriocaulaceae.JPG/800px-Paepalanthus%2C_Eriocaulaceae.JPG"><img width="30%" src="http://2.bp.blogspot.com/-XMCAYQqg7q8/UOZFfLRc_tI/AAAAAAAAG1A/d55MXJ-_Nz0/s640/buriti2.jpg"><img width="35%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Vochysia_Tucanorum_%282%29_-_23_02_23S-48_49_54W_REFON.jpg/240px-Vochysia_Tucanorum_%282%29_-_23_02_23S-48_49_54W_REFON.jpg"><img width="33%" src="https://www.embrapa.br/bme_images/m/226040040m.jpg"><img width="30%" src="https://pirenopolis.tur.br/portal/public/images/natureza/flora/Rubiaceae/thumbs/IMG_2844(540w405).jpg">
+---
+# Para reflexão
+
+.center[
+<img width="90%" src="https://cdn.pensador.com/img/frase/ni/co/nicolas_behr_nem_tudo_o_que_e_torto_e_errado_veja_as_pe_ljnnqlg.jpg">]
+
+---
+# Fauna do Cerrado
+- De insetos a mamíferos médios como a Anta e a Onça Pintada
+- Muitas aves: Ema, siriema, gralha, arara, tucano
+
+.center[<img width="60%" src="https://www.estudopratico.com.br/wp-content/uploads/2018/11/animais-do-cerrado.jpg">]
+---
+# Pampa (Campos sulinos)
+
+<img src="https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/MBI-Infografico-7.0-BR-pampa-rev2.jpg">
+
+---
+
+# Pampa 
+- Do _quéchuá_: planície.
+- Não possue período seco. 
+- Grande amplitude térmica e frentes frias dessecantes
+
+.center[<img width="70%" src="https://maiscuriosidade.com.br/wp-content/uploads/2020/07/curiosidades-Pampa-Gaucho-709x380.jpg">]
+
+
+---
+# Pampa
+
+- Submetido a intenso processo de antropização
+- Criação de gado, cultivo de grãos e uso do fogo
+
+
+<img width="50%" src="https://apaturrs.org/wp-content/uploads/2020/06/maxresdefault-1024x576.jpg"><img width="50%" src="https://mst.org.br/wp-content/uploads/2019/11/19317049472_98636e3386_b-2.jpg">
+
+
+---
+# Vegetação Pampa
+ Frio limita desenvolvimento arbóreo
+ 
+<img width="35%" src="https://www.embrapa.br/documents/10180/49024641/201020_Buti%C3%A1s_palmeiras/ad5b30c3-237c-195f-8c1a-2560edc4acf1?t=1602890269262"><img width="30%" src="https://www.resumoescolar.com.br/wp-content/imagens/pampas.jpg"><img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Yerba_Mate.jpg/380px-Yerba_Mate.jpg">
+
+.center[<img width="50%" src="https://www.ufrgs.br/ciencia/wp-content/uploads/2017/04/Campos_do_Sul_Val%C3%A9rio-Pillar.jpg">]
+---
+# Fauna do Pampa
+
+<img width="80%" src="https://www.jornaldocomercio.com/_midias/jpg/2021/06/08/32595989817_34845eba7d_o-9333427.jpg">
+---
+# Fauna do Pampa
+
+- ~40% fauna é endêmica
+- +700 sp de aves
+
+<img width="30%" src="https://t2.ea.ltmcdn.com/pt/posts/7/5/3/aves_do_pampa_23357_1_600.webp"><img width="30%" src="https://t1.ea.ltmcdn.com/pt/posts/7/5/3/_23357_4_600.webp"><img width="30%" src="https://t2.ea.ltmcdn.com/pt/posts/7/5/3/mamiferos_do_pampa_23357_6_600.webp">
+<img width="30%" src="https://t1.ea.ltmcdn.com/pt/posts/7/5/3/_23357_8_600.webp"><img width="27%" src="https://t1.ea.ltmcdn.com/pt/posts/7/5/3/_23357_9_600.webp"><img width="30%" src="https://t1.ea.ltmcdn.com/pt/posts/7/5/3/_23357_11_600.webp">
+
+---
+# Pantanal
+- Menor bioma e menos modificado
+
+<img src="https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/MBI-Infografico-7.0-BR-pantanal-rev2.jpg">
+
+---
+# Pantanal
+
+- Planície inundável (chuva out-mar)
+- Integração com outros biomas
+- Solo pouco fértil, argiloso e arenoso
+
+.center[<img width="70%" src="https://s2.static.brasilescola.uol.com.br/be/2020/06/areas-alagadas.jpg">]
+---
+# Vegetação
+
+- Vegetação de outros biomas
+- Poucas espécies endêmicas
+
+<img width="30%" src="https://www.gestaoeducacional.com.br/wp-content/uploads/2018/12/pantanal-768x427.jpg"><img width="30%" src="https://www.infoescola.com/wp-content/uploads/2007/09/pantanal-brasileiro-450x331.jpg"><img width="30%" src="https://pensamentoverde.com.br/wp-content/uploads/2013/09/piuva-546x410.jpg">
+---
+### Fauna
+- 325  espécies de peixes
+- 53 anfíbios
+- 98 répteis
+- 656 aves
+- 159 mamíferos
+
+.center[
+<img width="70%" src="https://beduka.com/blog/wp-content/uploads/2020/06/Fauna_do_Pantanal.jpg">
+]
+
+---
+# Caatinga
+
+<img src="https://mapbiomas-br-site.s3.amazonaws.com/Infograficos/MBI-Infografico-7.0-BR-caatinga-rev2.jpg">
+
+---
+# Caatinga
+
+- Secas extremas (alta sazonalidade)
+- Pouca chuva
+- Altas temperaturas
+
+
+.center[<img width="60%" src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/bioma-caatinga.jpeg">]
+
+---
+# Vegetação
+
+- Arbórea, arbustivo e herbáceo
+- Cactos (muitos usos)
+- Alto endemismo
+
+<img width="30%" src="https://s5.static.brasilescola.uol.com.br/img/2019/01/vegetacao-caatinga.jpeg"><img width="30%" src="https://ispn.org.br/site/wp-content/uploads/2018/07/caatinga-2-1536x1024.jpg"><img width="30%" src="https://1.bp.blogspot.com/_sjX51bjYiMA/SAgvliqtt1I/AAAAAAAADNU/1Zht0b-EKM0/s400/Z.jpg">
+
+---
+# Fauna
+- Adaptada à seca - migrações
+
+.center[<img width="67%" src="http://3.bp.blogspot.com/-lA18RrUs8L0/TbJfA-RffYI/AAAAAAAAR68/79X-I6UWl1Y/s400/CAATINGA%2B-%2B%2BFLORA%2BE%2BFAUNA.jpg">]
+
+---
+# Mata Atlântica
+
+- Se estende por todo o litoral
+- Apresenta diferentes fisionomias vegetais
+- Alta diversidade e o mais impactado
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atlantic_Forest_WWF.jpg/280px-Atlantic_Forest_WWF.jpg"><img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Serra_do_mar_paran%C3%A1.jpg/220px-Serra_do_mar_paran%C3%A1.jpg"><img width="34%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Araucaria_Parna_aparados_da_serra.jpg/220px-Araucaria_Parna_aparados_da_serra.jpg">
+
+---
+# Vegetação
+
+- Vaŕios extratos de vegetação
+
+<img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Manguezal_penambuco_2.jpg/220px-Manguezal_penambuco_2.jpg"><img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Parque_Nacional_da_Restinga_de_Jurubatiba_08.jpg/220px-Parque_Nacional_da_Restinga_de_Jurubatiba_08.jpg"><img width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Mata_Atl%C3%A2ntica_-_Olinda%2C_PE.JPG/220px-Mata_Atl%C3%A2ntica_-_Olinda%2C_PE.JPG">
+
+<img width="50%" src="https://agencia.fapesp.br/agencia-novo/lib/photo.php?src=https://agencia.fapesp.br/agencia-novo/Control/../imagens/noticia/25592.jpg&w=395"><img width="40%" src="https://static.todamateria.com.br/upload/ma/ta/matadasaraucarias-0-cke.jpg">
+---
+# Vegetação
+
+<img width="30%" src="https://s1.static.brasilescola.uol.com.br/img/2019/04/planta-epifita.jpg"><img width="30%" src="https://cdn.hipercultura.com/imagens/design-sem-nome-2020-02-11t171105-887.jpg"><img width="30%" src="https://www.jardineiro.net/wp-content/uploads/2012/08/pitanga.jpg"><img width="30%" src="https://parqueecologicoimigrantes.org.br/cms/wp-content/uploads/2021/08/canela-preta-477x420.jpg"><img width="30%" src="http://www.ra-bugio.org.br/images/mataatlantica/p/4/figura5.jpg"><img width="30%" src="http://portal.pmf.sc.gov.br/arquivos/imagens/15_03_2011_18_56_056c58435769e2b86b3dd4a16d43395fMEDIA.jpg">
+
+---
+# Fauna
+
+<img width="30%" src="https://s1.static.brasilescola.uol.com.br/img/2019/04/mico-leao-dourado.jpg"><img width="30%" src="https://agencia.fapesp.br/agencia-novo/lib/photo.php?src=https://agencia.fapesp.br/agencia-novo/Control/../imagens/noticia/35284.jpg&w=395"><img width="30%" src="https://i0.wp.com/biologo.com.br/bio/wp-content/uploads/2017/09/Tucano-de-bico-preto.jpg?w=631&ssl=1">
+
+
+.center[<img src="http://2.bp.blogspot.com/-kVFoLjUQs4Q/UJ-gk608v-I/AAAAAAAAAM0/XAW-aeuzUF0/s1600/Cerrado+Fauna.jpg">]
+
+---
+
+# Referências
+
+- [Lei da Mata Atlântica]()
+- [Manual Técnico da Vegetação Brasileira](https://biblioteca.ibge.gov.br/visualizacao/monografias/GEBIS%20-%20RJ/ManuaisdeGeociencias/Manual%20Tecnico%20da%20Vegetacao%20Brasileira%20n.1.pdf)
+- [Mapbiomas](https://mapbiomas.org/)
+- [Sobre o funcionamento da Terra (vários tópicos)](https://scied.ucar.edu/learning-zone)
+- [The microbiome of cryospheric ecosystems](https://www.nature.com/articles/s41467-022-30816-4)
+- [Glaciers and ice sheets as a biome](https://www.sciencedirect.com/science/article/abs/pii/S0169534711002722)
+
+---
+
+- [Amazon forest response to CO2 fertilization dependent on plant phosphorus acquisition](https://www.nature.com/articles/s41561-019-0404-9.)
+- [Contrasting North–South changes in Amazon wet-day and dry-day frequency and related atmospheric features (1981–2017)](https://link.springer.com/article/10.1007/s00382-018-4462-2)
+- [Funções da floresta sobre o regime pluviométrico](https://www.salveasflorestas.ufv.br/?page_id=296)
+
+
